@@ -17,14 +17,19 @@
   <h1>Iniciando Estudos com DOM</h1>
   <p>Aqui vai o resultado</p>
   <p>Aprendendo a usar o <strong>DOM </strong>em JavaScript</p>
-  <div>Clique em mim</div>
+  <div id="mensagem">Clique em mim</div>
   <script>
     var body = window.document.body
     var p1 = window.document.getElementsByTagName("p")[1]
-    p1.style.color = "yellow"
-    body.style.background = "black"
+    // var mensagem = window.document.getElementById("mensagem")
+    // mensagem.style.background = "green"
+    // mensagem.innerText = "Vai logo, caralho!"
+    // p1.style.color = "yellow"
+    // body.style.background = "black"
     // window.document.write(`Está escrito assim: ${p1.innerText.toLowerCase()}.`)
-    document.write(p1.innerHTML)
+    // document.write(p1.innerHTML)
+    var mensagem = document.querySelector("div#mensagem")
+    mensagem.style.color = "fuchsia"
   </script>
 </body>
 </html>
