@@ -8,6 +8,24 @@
 </head>
 <body>
   <h1>De onde você vem?</h1>
-  <p>Anote seu país de origem e saiba seu destino</p>
+  <p>Anote seu país de origem e saiba se é estrangeiro.</p>
+  <p>Seu país de origem é <input type="text" name="country" id="country">
+  <input type="button" value="Submit" onclick="submit()"></p>
+  <div id="nationality">
+
+  </div>
+  <script>
+    function submit() {
+      var country = window.document.querySelector("input#country")
+      var result = window.document.querySelector("div#nationality")
+      var origem = country.value
+      result.innerHTML = `<p>Seu país: ${origem}.</p>`
+      if (origem == "Brasil") {
+        result.innerHTML += "Você é brasileiro. Suave."
+      } else {
+        result.innerHTML += "Você é estrangeiro. Veja bem se seu visto está válido, parça."
+      }
+    }
+  </script>
 </body>
 </html>
