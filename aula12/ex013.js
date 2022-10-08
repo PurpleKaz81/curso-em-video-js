@@ -7,7 +7,7 @@ var weekDay = now.getDay()
   Sábado = 6
 */
 
-console.log(weekDay)
+// console.log(weekDay)
 
 switch(weekDay) {
   case 0:
