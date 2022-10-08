@@ -1,4 +1,4 @@
-var idade = 67
+var idade = 19
 console.log(`Você tem ${idade} anos. Qual a natuireza do seu voto?`)
 if (idade < 16) {
   console.log(`Indisponível.`)
@@ -7,3 +7,4 @@ if (idade < 16) {
 } else {
     console.log(`Obrigatório.`)
 }
+
