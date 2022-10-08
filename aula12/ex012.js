@@ -1,8 +1,9 @@
-var hora = 8
-console.log(`Agora são exatamente ${hora} horas.`)
-if (hora < 12) {
+var now = new Date()
+var time = now.getHours() + ":" + now.getMinutes()
+console.log(`Agora são exatamente ${time} horas.`)
+if (time < 12) {
   console.log(`Bom dia!`)
-} else if (hora <= 18) {
+} else if (time <= 18) {
 console.log(`Boa tarde!`)
 } else {
   console.log(`Boa noite!`)
