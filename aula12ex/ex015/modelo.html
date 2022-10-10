@@ -4,19 +4,32 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modelo de Exercício</title>
+  <title>Age Verifier</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Título</h1>
+    <h1>Age Verifier</h1>
   </header>
   <section>
     <div>
-      ...Testando
+      <p>Year Born:
+        <input type="number" name="txtyear" id="txtyear">
+      </p>
+      <p>Gender:
+        <input type="radio" name="radgender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="radgender" id="female">
+        <label for="female">Female</label>
+        <input type="radio" name="radgender" id="other">
+        <label for="other">Other</label>
+      </p>
+      <p>
+        <input type="button" value="Verify" onclick="verify()">
+      </p>
     </div>
-    <div>
-      Olá!
+    <div id="result">
+      Please fill in the above data and check the result.
     </div>
   </section>
   <footer>
