@@ -16,26 +16,35 @@ function verify(params) {
       gender = "male"
       if (age >= 0 && age < 10) {
         // Child
+        img.setAttribute("src", "bebe_m_elipse.png")
       } else if (age < 21) {
         // Young Person
+        img.setAttribute("src", "garoto_elipse.png")
       } else if (age < 50) {
         // Adult
+        img.setAttribute("src", "homem_elipse_fixed.png")
       } else {
         // Elder
+        img.setAttribute("src", "idoso_elipse.png")
       }
     } else if (formGender[1].checked) {
       gender = "female"
       if (age >= 0 && age < 10) {
         // Child
+        img.setAttribute("src", "bebe_f_elipse.png")
       } else if (age < 21) {
         // Young Person
+        img.setAttribute("src", "garota_elipse.png")
       } else if (age < 50) {
         // Adult
+        img.setAttribute("src", "mulher_elipse.png")
       } else {
         // Elder
+        img.setAttribute("src", "idosa_elipse.png")
       }
     }
     result.style.textAlign = "center"
     result.innerHTML = `We see you're a ${age}-year-old ${gender}.`
+    result.appendChild(img)
   }
 }

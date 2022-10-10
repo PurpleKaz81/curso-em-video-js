@@ -12,9 +12,15 @@ section {
   background: white;
   border-radius: 10px;
   padding: 50px;
-  width: 800px;
+  width: 500px;
   margin: auto;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.286);
+}
+
+#result {
+  text-align: center;
+  justify-content: center;
+  align-self: center;
 }
 
 footer {
