@@ -6,6 +6,8 @@ function verify(params) {
   if (formYear.value.length == 0 || Number(formYear.value) > year) {
     window.alert(`Check your data and try again.`)
   } else {
-    window.alert(`Looks good.`)
+    var formGender = window.document.getElementsByName("radgender")
+    var age = year - Number(formYear.value)
+    // result.innerHTML = `You're ${age} years old.`
   }
 }
