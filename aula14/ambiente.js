@@ -1,9 +1,5 @@
-// var counter = 1
-// while (counter <= 5) {
-//   console.log(counter)
-//   counter++
-// }
-
+console.log('vai começar...')
 for(var counter = 1;counter <= 5;counter++) {
   console.log(counter)
 }
+console.log('FIM')
