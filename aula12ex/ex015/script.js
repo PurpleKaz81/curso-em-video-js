@@ -14,8 +14,26 @@ function verify(params) {
     img.setAttribute("id", "photo") // same thing as inserting <img id="photo"> inside <div id="result">
     if (formGender[0].checked) {
       gender = "male"
+      if (age >= 0 && age < 10) {
+        // Child
+      } else if (age < 21) {
+        // Young Person
+      } else if (age < 50) {
+        // Adult
+      } else {
+        // Elder
+      }
     } else if (formGender[1].checked) {
       gender = "female"
+      if (age >= 0 && age < 10) {
+        // Child
+      } else if (age < 21) {
+        // Young Person
+      } else if (age < 50) {
+        // Adult
+      } else {
+        // Elder
+      }
     }
     result.style.textAlign = "center"
     result.innerHTML = `We see you're a ${age}-year-old ${gender}.`
