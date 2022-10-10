@@ -9,5 +9,13 @@ function verify(params) {
     var formGender = window.document.getElementsByName("radgender")
     var age = year - Number(formYear.value)
     // result.innerHTML = `You're ${age} years old.`
+    var gender = ""
+    if (formGender[0].checked) {
+      gender = "male"
+    } else if (formGender[1].checked) {
+      gender = "female"
+    }
+    result.style.textAlign = "center"
+    result.innerHTML = `We see you're a ${age}-year-old ${gender}.`
   }
 }
