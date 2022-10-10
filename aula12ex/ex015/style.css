@@ -17,11 +17,11 @@ section {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.286);
 }
 
-#result {
+/* #result {
   text-align: center;
   justify-content: center;
   align-self: center;
-}
+} */
 
 footer {
   color: white;
