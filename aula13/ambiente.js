@@ -1,7 +1,7 @@
 var counter = 1
 do {
   console.log(`Passo ${counter}.`)
-  counter++
+  counter += 1
 } while (counter <= 6)
 
 // var counter = 1
