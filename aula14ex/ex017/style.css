@@ -8,6 +8,11 @@ header {
   text-align: center;
 }
 
+/* #inputNumber h3 {
+  font-size: large;
+  text-decoration: dashed;
+} */
+
 section {
   background: white;
   border-radius: 10px;
