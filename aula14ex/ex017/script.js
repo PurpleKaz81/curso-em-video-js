@@ -10,6 +10,7 @@ function check() {
     while (counter <= 10) {
       let item = window.document.createElement("option")
       item.text = `${number} x ${counter} = ${number*counter}`
+      item.value = `table${counter}` // useful for PHP
       table.appendChild(item)
       counter++
     }

@@ -8,10 +8,10 @@ header {
   text-align: center;
 }
 
-/* #inputNumber h3 {
-  font-size: large;
-  text-decoration: dashed;
-} */
+#input-number {
+  text-align: center;
+  margin: 0 1em 0.5em;
+}
 
 section {
   background: white;
@@ -20,6 +20,10 @@ section {
   width: 500px;
   margin: auto;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.286);
+}
+
+#multable {
+  margin: auto 9em;
 }
 
 footer {
