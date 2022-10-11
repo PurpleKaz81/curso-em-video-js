@@ -6,7 +6,7 @@ function count() {
   if (start.value.length == 0 || end.value.length == 0 || step.value.length == 0) {
     result.innerHTML = "[ERROR] Can't count like that, ol' love."
   } else {
-    result.innerHTML = "Counting: \u{1F3C1} "
+    result.innerHTML = "Counting: </br> \u{1F3C1}"
     let firstNumber = Number(start.value)
     let endNumber = Number(end.value)
     let stepNumber = Number(step.value)
