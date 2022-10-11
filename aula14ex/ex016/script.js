@@ -10,6 +10,10 @@ function count() {
     let firstNumber = Number(start.value)
     let endNumber = Number(end.value)
     let stepNumber = Number(step.value)
+    if (stepNumber <= 0){
+      window.alert(`Invalid entry. Let's start from step 1.`)
+      stepNumber = 1
+    }
     if (firstNumber < endNumber) {
       // Ascending count
       for (let counter = firstNumber;counter <= endNumber;counter += stepNumber) {
