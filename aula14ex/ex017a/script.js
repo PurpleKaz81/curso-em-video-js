@@ -7,5 +7,6 @@ function calc() {
     let number = Number(inputNumber.value)
     let counter = 1
     table.innerHTML = ""
+    
   }
 }
