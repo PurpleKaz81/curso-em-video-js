@@ -15,7 +15,8 @@ function count() {
     let endNumber = Number(end.value)
     let stepNumber = Number(step.value)
     for (let counter = firstNumber;counter <= endNumber;counter += stepNumber) {
-      result.innerHTML += `${counter} + \u{1F449} `
+      result.innerHTML += `${counter} \u{1F449} `
     }
+    result.innerHTML += `\u{1F3C1}`
   }
 }
