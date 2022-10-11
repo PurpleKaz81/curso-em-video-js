@@ -1,9 +1,9 @@
 function check() {
-  let number = window.document.querySelector("#number")
+  let inputNumber = window.document.querySelector("#number")
   let table = window.document.querySelector("#table")
-  if (number.value.length == 0) {
-    table.innerHTML = "I need a value, bruh... \u{1F644}"
+  if (inputNumber.value.length == 0) {
+    let number = Number(inputNumber.value)
   } else {
-    table.innerHTML = `Multiplication Table for ${number.value}`
+    window.alert("I need a value, bruh... \u{1F644}")
   }
 }
