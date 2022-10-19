@@ -13,3 +13,9 @@ num.push(9)
 num
 
 console.log(`Agora, seu novo valor é ${num.sort()[5]}`)
+
+console.log('Let\'s order this mess.')
+
+for(let pos = 0;pos < num.length;pos++) {
+  console.log(`${num[pos]}`)
+}
