@@ -26,3 +26,14 @@ valores.sort()
   }
 
 console.log(valores.indexOf(2))
+
+// let array = Array.from({length: 40}, () => Math.floor(Math.random() * 40)).sort()
+
+// array
+
+let array = [];
+while(array.length < 40){
+    let random = Math.floor(Math.random() * 100);
+    if(array.indexOf(random) === 0) array.push(random);
+}
+console.log(array);
