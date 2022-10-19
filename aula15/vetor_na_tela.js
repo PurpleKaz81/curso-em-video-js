@@ -7,3 +7,7 @@ for (let pos = 0; pos < valores.length; pos++) {
   let el = valores[pos];
   console.log(`A posição ${pos} tem valor de ${valores[pos]}`)
 }
+
+for (let pos in valores) {
+  console.log(`A posição ${pos} tem valor de ${valores[pos]}`)
+}
