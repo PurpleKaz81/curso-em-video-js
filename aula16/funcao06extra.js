@@ -1,5 +1,7 @@
 let factorial = x => {
-  if (isNaN(x) || x < 0 || x > 100) return "I need a value, champ!"
+  if (isNaN(x)) return "I need a numerical value, champ!"
+  if (x < 0) return "I can't use negative values"
+  if (x > 100) return "I can only use values smaller than or equal to 100"
   if (x % 1 !== 0) {
     x = parseInt(x)
   }
