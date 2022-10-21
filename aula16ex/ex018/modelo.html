@@ -9,18 +9,15 @@
 </head>
 <body>
   <header>
-    <h1 class="header">Number Analyzer</h1>
-    <p>Input some numbers and get them analyzed</p>
+    <h1 class="header">Analisador de Números</h1>
   </header>
   <section>
     <div id="input">
-      <h4>Add a number between 1 and 100:
-        <input type="number" name="fnum" id="fnum" placeholder="Type in a number...">
-        <input type="button" value="Input" onclick="input()">
-        <br><br><select name="flista" id="flista" size="10">
-        <input type="button" value="Analyze" id="analyze" onclick="analyze()">
-        </select>
-      </h4>
+      Número (entre 1 e 100): 
+      <input type="number" name="fnum" id="fnum">
+      <input type="button" value="Adicionar" onclick="adicionar()">
+      <br><br><select name="flista" id="flista" size="10"></select>
+      <br><input type="button" value="Finalizar" id="analyze" onclick="finalizar()">
     </div>
   </section>
   <div id="res">
