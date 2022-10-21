@@ -3,7 +3,7 @@ console.log(valores)
 valores.push(56)
 console.log(valores)
 
-valores.sort()
+// valores.sort()
 
 // console.log(valores)
 // console.log(valores[0])
