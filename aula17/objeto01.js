@@ -9,3 +9,4 @@ let amigo = {
 }
 amigo.engordar(2)
 console.log(`${amigo.nome} pesa ${amigo.peso}kg.`)
+
