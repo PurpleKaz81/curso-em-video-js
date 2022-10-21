@@ -4,23 +4,31 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modelo de Exercício</title>
+  <title>Number Analyzer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Título</h1>
+    <h1 class="header">Number Analyzer</h1>
+    <p>Input some numbers and get them analyzed</p>
   </header>
   <section>
-    <div>
-      ...Testando
+    <div id="input">
+      <h4>Add a number between 1 and 100:
+        <input type="number" name="number" id="number" placeholder="Type in a number...">
+        <input type="button" value="Input" onclick="input()">
+      </h4>
     </div>
-    <div>
-      Olá!
+    <div id="input">
+      <select name="table" id="table" size="10">
+        <option>
+          Type a Number Above
+        </option>
+      </select>
     </div>
   </section>
   <footer>
-    <p>&copy; CursoemVídeo</p>
+    <p>&copy; Kasinski</p>
   </footer>
   <script src="script.js"></script>
 </body>
