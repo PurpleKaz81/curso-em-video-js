@@ -15,20 +15,16 @@
   <section>
     <div id="input">
       <h4>Add a number between 1 and 100:
-        <input type="number" name="number" id="number" placeholder="Type in a number...">
+        <input type="number" name="fnum" id="fnum" placeholder="Type in a number...">
         <input type="button" value="Input" onclick="input()">
+        <br><br><select name="flista" id="flista" size="10">
+        <input type="button" value="Analyze" id="analyze" onclick="analyze()">
+        </select>
       </h4>
     </div>
-    <div id="input-table">
-      <select name="table" id="table" size="10">
-      </select>
-    </div>
-    <div>
-      <input type="button" value="Analyze" id="analyze" onclick="analyze()">
-    </div>
   </section>
-  <div id="analysis">
-    
+  <div id="res">
+
   </div>
   <footer>
     <p>&copy; Kasinski</p>
